@@ -29,6 +29,7 @@ button:hover{
 
 button:focus{
     border-bottom: 1px solid #FFD700;
+    color: #FFD700;
 }
 
 #content{
@@ -40,12 +41,12 @@ button:focus{
     padding: 10vh 15vw;
 }
 
-.welcome,.menu-text{
+.welcome,.menu-text,.contact-text{
     font-size: 500%;
     font-family: MonteCarlo;
 }
 
-.initial-description{
+.initial-description,.contact-description,.email{
     font-size: 200%;
 }
 
@@ -53,8 +54,7 @@ button:focus{
     font-size: 250%;
 }
 
-.initial-description,.menu-item{
-    
+.initial-description,.menu-item,.contact-description,.email{
     font-family: 'Cormorant Garamond';
     font-style: italic;
     
@@ -101,4 +101,7 @@ img{
     height: auto;
 }
 
-
+.logo-contact{
+    width: 25%;
+    height: auto;
+}

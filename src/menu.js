@@ -134,6 +134,7 @@ function menuLoad(){
 
     const nibbles = createNibbles();
     menuContainer.appendChild(nibbles);
+    nibblesButton.focus();
 
     nibblesButton.addEventListener("click",()=>{
         refresh(menuContainer);
@@ -142,6 +143,7 @@ function menuLoad(){
 
     starterButton.addEventListener("click",()=>{
         refresh(menuContainer);
+        
         const starters = starterMenu();
         menuContainer.appendChild(starters);
     });
