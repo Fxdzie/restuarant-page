@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MonteCarlo&display=swap');
+
+:root{
+    --blue: rgba(9,36,63,255);
+}
+
+body{
+    background-color: var(--blue);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    font-family: 'Cormorant Garamond';
+    font-size: 140%;
+}
+
+button:hover{
+    color: #FFD700;
+}
+
+button:focus{
+    border-bottom: 1px solid #FFD700;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10vh 15vw;
+}
+
+.welcome,.menu-text{
+    font-size: 500%;
+    font-family: MonteCarlo;
+}
+
+.initial-description{
+    font-size: 200%;
+}
+
+.menu-item{
+    font-size: 250%;
+}
+
+.initial-description,.menu-item{
+    
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    
+}
+
+.menu-container{
+    margin-top: 3vh;
+}
+
+.menu-container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu-container > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item-desc{
+    font-family: MonteCarlo;
+    font-size: 150%;
+}
+
+.button-container{
+    display: flex;
+    gap: 30px;
+    
+    border-bottom: 0.5px solid grey;
+    justify-content: center;
+    width: 70vw;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}
+
+

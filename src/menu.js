@@ -14,6 +14,7 @@ function createMenuItem(title,description=""){
     contTitle.classList.add("menu-item");
     contTitle.innerText= title;
     const contDesc = document.createElement("div");
+    contDesc.classList.add("menu-item-desc");
     contDesc.innerText = description;
     cont.appendChild(contTitle);
     cont.appendChild(contDesc);
@@ -99,12 +100,14 @@ function extrasMenu(){
 
 function menuLoad(){
     const mainContainer = document.createElement("div");
-    mainContainer.classList.add("menu-container");
+    mainContainer.classList.add("main-container");
 
     const menuText = document.createElement("div");
+    menuText.classList.add("menu-text");
     menuText.innerText = "Menu";
 
     const buttonContainer = document.createElement("div");
+    buttonContainer.classList.add("button-container");
     const nibblesButton = document.createElement("button");
     nibblesButton.innerText = "Nibbles";
     const starterButton = document.createElement("button");
@@ -117,6 +120,7 @@ function menuLoad(){
     extrasButton.innerText = "Extras";
 
     const menuContainer = document.createElement("div");
+    menuContainer.classList.add("menu-container");
 
     buttonContainer.appendChild(nibblesButton);
     buttonContainer.appendChild(starterButton);
